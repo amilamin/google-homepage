@@ -1,0 +1,1 @@
+In this project, I recreated the Google homepage. I solidified my understanding of HTML and CSS through this project. I learned how to center elements horizontally, how to use the CSS flexbox, and how to use classes and ids to target CSS at specific elements on the page.

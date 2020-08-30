@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .center {
+            padding-top: 109px;  
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .searchbar {
+            margin: 0 auto;
+            width: 420px;
+            padding: 10px 10px 20px 10px;
+        }
+
+        .buttons {
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            
+        }
+
+        button {
+            background-color: #f2f2f2;
+            color: #5F6368;
+            border: 1px;
+            border-radius: 4px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            height: 36px;
+            min-width: 54px;
+        }
+    
+        .search {
+            display: flex;
+            border-radius: 30px;
+            padding: 10px;
+            color: rgba(0,0,0,.87);
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgba(128, 128, 128, 0.301);
+            font-size: 16px;
+            }
+
+        .box-shadow::after {
+            box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.1);
+            opacity: 0; /* hide the hover shadow */
+            transition: opacity 0.3s ease-in-out;
+}
+        .box-shadow:hover::after  {
+            opacity: 1; /* show the hover shadow */
+}
+
+        .top-nav-left {
+            overflow: hidden;
+            font-size: 14px;
+            padding: 0px 5px 5px 5px;
+            
+        }
+        li {
+            list-style-type: none;
+            float: left;
+            padding: 8px;
+            color: black;
+        }
+        a {
+            text-decoration: none;
+        }
+
+        .top-nav-right {
+            display: block;
+            float: right;  
+            line-height: 24px;
+            font-size: 14px;
+        }
+
+        .app-icon {
+            height: 28px;
+        }
+    </style>
+<head>
+</head>
+
+<body>
+    <nav>
+        <ul class="top-nav-left">
+            <li><a href="">About</a></li>
+            <li><a href="">Store</a></li>
+            <div class="top-nav-right">
+                <li><a href="">Gmail</a></li>
+                <li><a href="">Images</a></li>
+                <li><a href="">
+                    <img class="app-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAABN0lEQVR4Xu2XwQ0CQQwDfX0g6kD0gUSHfCgDiUagD8T37h6J/LB2b/btKBuv400WHfwsB69fEIACDs4ALXBwAWCCtAAtUGfgLOlahL8kfVbYdPzu1TstcJf0KBJwk/RcYdPxELDHAAooSvoPS0vYzU8L0AI7DOABeECdAdeE0vGYoGuCJ0mXomDekr4rbDreVkCx9rFgnV9grMqKt4WAIlHTwjoKSO/zbn7bBNP/uJsfAtw5wH2BdDwKQAGsw1sGOt9guofd/HgAHoAHeB6Q3ufd/LYHTLkQdX4BCJiRARTQeFV3H0/H2yboTmLpeAhgEmQS9CbBdA+7+fEAPAAPwAM2DHRGYdeE0vG2Cbr7eDreJqCxNowD7bTAOFU1bgoBDbKmhKKAKZ+1URQKaJA1JRQFTPmsjaJ+cMXYQXjPj6kAAAAASUVORK5CYII=">
+                </a></li>
+            </div>
+        </ul>
+
+    <ul></ul>
+    </nav>
+    <img alt="Google" height="92" class="center" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+    <div class="searchbar">
+        <input class="search box-shadow" type="text" size=50>
+    </div>
+    <div class="buttons">
+        <button type="submit">Google Search</button>
+        <button type="submit">I'm feeling lucky</button>
+    </div>
+</body>
+
+</html>
